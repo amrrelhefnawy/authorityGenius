@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://agDev:RyanAmrMohamed@authoritygenius.uucncnf.mongodb.net/?retryWrites=true&w=majority",
+  "jwtSecret": "secrettoken"
+}

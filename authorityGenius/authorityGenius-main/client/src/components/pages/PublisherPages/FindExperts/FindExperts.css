@@ -1,0 +1,171 @@
+* {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+}
+
+.findexperts__filterheader {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 76px;
+}
+
+.findexperts__filter {
+    color: #19BEDB;
+    text-decoration: underline dotted;
+}
+
+.findexperts__button-filters {
+    margin-left: 40px;
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    border: 1px solid grey;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40px;
+    font-size: 16x;
+    width:90px;
+    height: 30px;
+}
+
+.findexperts__button-filters-text {
+    margin-top: 5px;
+    margin-right: 10px;
+    float: right;
+}
+
+.findexperts__button-filters-img {
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+    float: left;
+}
+
+.findexperts__filterheader-line {
+    margin: auto;
+    width: 1236px;
+    margin-top: 42px;
+    border: 1px solid #CECECE;
+}   
+
+.findexperts__flexboxheader {
+    display: flex;
+    margin: auto;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 33px;
+  
+ }
+ 
+ .findexperts__searchresults {
+     margin-right: 280px;
+     font-size:24px;
+ }
+ 
+ .findexperts__sortby {
+     margin-left:60px;
+     font-size:12px;
+ }
+ 
+ .findexperts__recomended {
+     font-size: 16px;
+     color: #19BEDB;
+ }
+ 
+ .findexperts__card {
+     margin: auto;
+     margin-bottom: 10px;
+     width:671px;
+     border: 1px solid #304259;
+     display: flex;
+     height: 149px;
+     border-radius: 5px;
+ }
+ 
+ 
+ .findexperts__picture {
+     margin-top: 24px;
+     margin-left: 26px;
+     margin-right: 17px;
+     width:100px;
+     height:100px;
+     border-radius: 5px;
+     border: 0.5px #304259;
+ }
+ 
+ .findexperts__flexboxmain{
+     width:545px;
+ }
+ 
+ 
+ .findexperts__flexbox1 {
+     display: flex;
+     margin-top: 31px;
+ }
+ 
+ 
+ .findexperts__name {
+     width:100%;
+     height: 29px;
+     margin-left: 17px;
+     font-size: 24px;
+     font-family: 'Helvetica';
+     font-style: normal;
+     font-weight: 700;
+ }
+ 
+ .findexperts__price {
+     margin-left: 200px;
+     width:100%;
+     font-size:24px;
+     height: 29px;
+     color: #19BEDB;
+     font-family: 'Helvetica';
+     font-style: normal;
+     font-weight: 700;
+ }
+ 
+ .findexperts__article {
+     font-size:16px;
+ }
+ 
+ .findexperts__expert {
+     margin-top: 4px;
+     font-size: 16px;
+     margin-left: 17px;
+     font-family: 'Helvetica';
+     font-style: normal;
+     font-weight: 700;
+ }
+ 
+ .findexperts__flexbox2 {
+     display: flex;
+ }
+ 
+ .findexperts__stars {
+     margin-top: 11px;
+     margin-left: 17px;
+     width: 100%;
+     color: #19BEDB;
+ }
+ 
+ 
+ .findexperts__button-viewprofile {
+     margin-right: 25px;
+     background-color: white; /* Green */
+     border: none;
+     color: black;
+     border: 1px solid grey;
+     padding: 10px 20px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     border-radius: 40px;
+     font-size: 12px;
+     width:150px;
+ }

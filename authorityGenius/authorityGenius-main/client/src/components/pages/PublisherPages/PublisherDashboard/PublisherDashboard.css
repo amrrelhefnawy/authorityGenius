@@ -1,0 +1,396 @@
+/*main-section*/
+
+* {
+    font-family: var(--font-base);
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+.publisherdashboard__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 50px;
+    height: 100%;
+    width: 1350px;
+}
+
+.publisherdashboard__home {
+    position: relative;
+    font-weight: 700px;
+    top: 70px;
+    right: 290px;
+}
+
+.publisherdashboard__sidebar {
+
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 45px 30px;
+    gap: 20px;
+    width: 250px;
+    height: 153px;
+    border: 0.5px solid #CECECE;
+    border-radius: 5px;
+    right: 280px;
+    top: 90px;
+}
+
+.publisherdashboard__tab {
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.publisherdashboard__tabbutton {
+    font-size: 18px;
+    background: none;
+    border: none;
+    width: 100px;
+    text-align: left;
+}
+
+.publisherdashboard__tabbutton__job {
+    font-weight: 700;
+}
+
+.publisherdashboard__tabbutton__expert {
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+/*joblists-section*/
+
+.publisherdashboard__list {
+    position: relative;
+    bottom: 70px;
+    left: 20px;
+    width: 723px;
+}  
+
+.publisherdashboard__list-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.publisherdashboard__empty-notification {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+    background: rgba(25, 190, 219, 0.1);
+    border-radius: 5px;
+    height: 97px;
+    width: 681px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.publisherdashboard__findexpertsbox {
+    width: 681px;
+    height: 326px;
+    border: red 1px solid;
+    font-size: 32px;
+    flex-wrap: wrap;
+    margin: 60px auto auto auto;
+    text-align: center;
+}
+
+.publisherdashboard__findexpertsbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    gap: 10px;
+    background: #000000;
+    font-size: 16px;
+    border-radius: 50px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: red solid 1px;
+    margin: 40px auto auto auto;
+}
+
+.publisherdashboard__headers {
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    background: rgba(25, 190, 219, 0.1);
+    border-radius: 5px;
+    height: 44px;
+    width: 723px;
+}
+
+.publisherdashboard__header {
+    display: inline-block; 
+    text-align: center;
+    height: 44px;
+    font-size: 16px;
+
+}
+
+.publisherdashboard__header__status {
+    width: 150px;
+}
+
+.publisherdashboard__header__job {
+    width: 150px;    
+    margin-right: 15px;
+
+}
+
+.publisherdashboard__header__expert {
+    width: 200px;    
+}
+
+.publisherdashboard__header__deadline {
+    width: 90px;    
+}
+
+.publisherdashboard__mainlists {
+    margin-top: 20px;
+}
+
+.publisherdashboard__lists {
+    display: flex; /* equal height of the children */
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 723px;
+}
+
+.publisherdashboard__listborders {
+}
+
+.publisherdashboard__listborders__status {
+    width: 150px;
+}
+
+.publisherdashboard__listborders__job {
+    width: 150px;    
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.publisherdashboard__listborders__expert {
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 70px;
+}
+
+.publisherdashboard__listborders__deadline {
+    width: 90px;    
+
+}
+
+.publisherdashboard__listborders__detailbutton {
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.publisherdashboard__status {
+    background: #304259;
+    border-radius: 5px;
+    width: 123px;
+    height: 30px;
+    color: #FFFFFF;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.publisherdashboard__status__inprogress {
+    background: #304259;
+}
+
+.publisherdashboard__status__completed {
+    background: #CECECE;
+}
+
+.publisherdashboard__status__needsreview {
+    background: #19BEDB;
+}
+
+.publisherdashboard__job {
+    font-size: 16px;
+}
+
+.publisherdashboard__expert {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.publisherdashboard__expert__desc {
+    position: relative;
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 40px;
+    bottom: 10px;
+}
+
+.publisherdashboard__expert__img {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    top: 12px;
+    
+}
+
+.publisherdashboard__deadline {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.publisherdashboard__detailbutton {
+    height: 40px;
+    width: 110px;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    background-color: white;
+
+}
+
+
+
+
+
+
+
+/*expertlists-section*/
+
+
+.publisherdashboard__expertlists {
+    position: relative;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 723px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 15px;
+    right: 15px;
+    margin-top: 15px;
+}
+
+.publisherdashboard__expertcard {
+    border: 0.5px solid #CECECE;
+    border-radius: 5px;
+    width: 210px;
+    height: 280px;
+}
+
+.publisherdashboard__expertcard__sectionone {
+    margin: 15px auto auto auto;
+    height: 125px;
+    width: 190px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.publisherdashboard__expertcard__images {
+    width: 75px;
+    height: 75px;
+}
+
+.publisherdashboard__expertcard__name {
+    width: 113px;
+    font-size: 18px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.publisherdashboard__expertcard__desc {
+    width: 113px;
+    font-size: 12px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.publisherdashboard__expertcard__price {
+    font-size:18px;
+    height: 29px;
+    color: #19BEDB;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.publisherdashboard__expertcard__article {
+    font-size:15px;
+}
+
+.publisherdashboard__expertcard__line {
+    margin: auto;
+    width: 185px;
+    border: 1px solid #CECECE;
+} 
+
+.publisherdashboard__expertcard__rating {
+    height: 17px;
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.publisherdashboard__expertcard__jobs {
+    font-size: 14px;
+    font-weight: 700;
+    
+}
+
+.publisherdashboard__expertcard__number {
+    float: right;
+    color: #19BEDB;
+    font-size: 14px;
+}
+
+.publisherdashboard__expertcard__button {
+    margin: 0px auto auto auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    gap: 10px;
+    width: 185.2px;
+    height: 50px;
+    background: #55AAF8;
+    border: 1px solid #55AAF8;
+    border-radius: 50px;
+    margin-top: 5px;
+}

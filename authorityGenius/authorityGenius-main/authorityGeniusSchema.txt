@@ -1,0 +1,48 @@
+User
+	accountType: String ("publisher" or "reviewer")
+	firstName:   String (First char uppercased)
+	lastName:    String (First char uppercased)
+	email:       String (Verified email address)
+	password:	 String (Encrpt prior to saving)
+
+PubProfile
+	user:             User
+	phoneNum:	      String (Verified phone number)
+	website:          String (Verified website URL)
+	industries:       String[] (First char of each word uppercased)
+	articlesPerMonth: int
+	expertTypes:      String[] ("Doctor", "Lawyer", "Mechanic", "Nutritionist", "Physical Therapist", "Psychologist", "Therapist", "Veterinarian")
+	
+RevProfile
+	user:           User
+	phoneNum:	    String (Verified phone number)
+	website:        String (Verified website URL)
+	tasks:          String[] ("Review Content", "Write Articles", "Provide a Quote", "Fact Check")
+	credentials:    Object (
+				degree: String
+				major: String
+				institution: String
+			    )
+	ratePerArticle: int
+	pubRating: 	    int
+	
+Articles
+	url:         String
+	assets:      String[] (img URLs?)
+	date:        Date
+	title:       String
+	description: String
+	article:     String
+	reviewedBy:  Users[]
+
+UserReview
+	writtenBy:     User
+	writtenFor:    User
+	review:        String
+	date:          Date
+	overall:       int
+	communication: int
+
+
+	timeliness:    int
+	value:         int
